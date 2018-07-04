@@ -1,0 +1,18 @@
+{
+  "name": "prerender-jmf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prerender": "^5.4.2",
+    "prerender-memory-cache": "^1.0.2",
+    "prerender-redis-cache": "^0.1.6",
+    "prerender-spa-plugin": "^3.0.0-beta.2"
+  }
+}
