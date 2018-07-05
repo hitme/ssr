@@ -29,7 +29,7 @@ if ('S3_BUCKET_NAME' in process.env) {
     server.use(prerender.s3HtmlCache());
 } else if ('REDIS_URL' in process.env) {
     console.log("Use redis cache");
-    server.use(require('prerender-redis-cache'));
+    server.use(require('./prerenderRedisCache.js'));
 } else {
     console.log("Use mem cache");
     server.use(require('prerender-memory-cache'));

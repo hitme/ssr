@@ -45,6 +45,7 @@ USER pptruser
 WORKDIR .
 
 ADD package.json package.json
+ADD prerenderRedisCache.js prerenderRedisCache.js
 RUN npm install
 ADD server.js server.js
 
