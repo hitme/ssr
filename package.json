@@ -12,7 +12,7 @@
   "dependencies": {
     "prerender": "^5.4.2",
     "prerender-memory-cache": "^1.0.2",
-    "prerender-redis-cache": "^0.1.6",
+    "prerender-redis-cache": "^0.2.0",
     "prerender-spa-plugin": "^3.0.0-beta.2"
   }
 }
